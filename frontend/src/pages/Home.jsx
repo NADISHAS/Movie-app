@@ -25,7 +25,8 @@ function Home(){
 
             </form>
             <div className="movies-grid">
-                {movie.map((movie) => movie.title.toLowerCase().startsWith(searchQuery) && (<MovieCard movie={movie} key = {movie.id}/>))}
+                {movie.map((movie) => movie.title.toLowerCase().startsWith(searchQuery) && // conditional rendering
+                (<MovieCard movie={movie} key = {movie.id}/>))}
             </div>
         </div>
         </>
