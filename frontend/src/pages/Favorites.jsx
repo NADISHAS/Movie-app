@@ -1,4 +1,5 @@
-function Favourites(){
+import "../css/Favorites.css"
+function Favorites(){
     return(
         <>
         <h1>No more favourite movies</h1>
@@ -7,4 +8,4 @@ function Favourites(){
     )
 }
 
-export default Favourites;
+export default Favorites;
