@@ -1,3 +1,4 @@
+
 function MovieCard({movie}){
     function onfavouriteClick(){
         alert("clicked");
